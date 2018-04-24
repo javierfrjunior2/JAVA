@@ -1,0 +1,29 @@
+public class Colegio extends Edificio {
+
+private int numeroAula;
+private boolean pabellon;
+
+public Colegio(String direccion, int codigoPostal, float altura,
+		boolean calefaccionCentral, int numeroAula, boolean pabellon) {
+	super(direccion, codigoPostal, altura, calefaccionCentral);
+	this.numeroAula = numeroAula;
+	this.pabellon = pabellon;
+}
+public int getNumeroAula() {
+	return numeroAula;
+}
+public void setNumeroAula(int numeroAula) {
+	this.numeroAula = numeroAula;
+}
+public boolean isPabellon() {
+	return pabellon;
+}
+public void setPabellon(boolean pabellon) {
+	this.pabellon = pabellon;
+}
+public int getCapacidadColegio(){
+	int CapacidadColegio=numeroAula*30;
+	return(CapacidadColegio);
+}
+
+}
