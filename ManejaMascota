@@ -1,0 +1,15 @@
+
+public class ManejaMascotas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mascota JoseAngel;
+		JoseAngel=new Mascota("JoseAngel",18,"perro",'m');
+		System.out.println("Mi mascota se llama"+JoseAngel.getNombre());
+		System.out.println("y tiene"+JoseAngel.getEdad()+"años");
+		JoseAngel.setEdad(19);
+		System.out.println("Ahora tiene"+JoseAngel.getEdad());
+		System.out.println("Por lo tanto nacio en el año"+JoseAngel.getAnioNacimiento(anioActual));
+	}
+
+}
